@@ -1,0 +1,32 @@
+{
+  "core": [
+    { "id": 1, "name": "Ayesha Siddiqui", "role": "President", "batch": "2023" },
+    { "id": 2, "name": "Zain ul Abideen", "role": "Vice President", "batch": "2023" },
+    { "id": 3, "name": "Maryam Farooq", "role": "Secretary", "batch": "2024" },
+    { "id": 4, "name": "Hassan Raza", "role": "Treasurer", "batch": "2024" }
+  ],
+  "general": [
+    { "id": 5,  "name": "Fatima Malik",     "batch": "2023" },
+    { "id": 6,  "name": "Bilal Ahmed",      "batch": "2023" },
+    { "id": 7,  "name": "Sana Tariq",       "batch": "2023" },
+    { "id": 8,  "name": "Usman Khan",       "batch": "2024" },
+    { "id": 9,  "name": "Nida Rashid",      "batch": "2024" },
+    { "id": 10, "name": "Hamza Iqbal",      "batch": "2024" },
+    { "id": 11, "name": "Laila Zafar",      "batch": "2024" },
+    { "id": 12, "name": "Rohail Baig",      "batch": "2025" },
+    { "id": 13, "name": "Areeba Sheikh",    "batch": "2025" },
+    { "id": 14, "name": "Daniyal Mirza",    "batch": "2025" },
+    { "id": 15, "name": "Hira Anwar",       "batch": "2025" },
+    { "id": 16, "name": "Saad Hussain",     "batch": "2025" },
+    { "id": 17, "name": "Zunaira Qamar",    "batch": "2023" },
+    { "id": 18, "name": "Talha Nawaz",      "batch": "2024" },
+    { "id": 19, "name": "Mahnoor Alam",     "batch": "2025" },
+    { "id": 20, "name": "Faris Qureshi",    "batch": "2023" }
+  ],
+  "bearers": [
+    { "id": 1, "name": "Ayesha Siddiqui",  "role": "President" },
+    { "id": 2, "name": "Zain ul Abideen",  "role": "Vice President" },
+    { "id": 3, "name": "Maryam Farooq",    "role": "Secretary" },
+    { "id": 4, "name": "Hassan Raza",      "role": "Treasurer" }
+  ]
+}

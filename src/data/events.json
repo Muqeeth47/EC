@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "title": "Spoken Word Slam",
+    "date": "April 18, 2025",
+    "venue": "Main Auditorium, Block A",
+    "description": "An electrifying evening of poetry, prose, and performance where students compete for the coveted Golden Quill Award in front of a live audience.",
+    "status": "upcoming",
+    "category": "Competition"
+  },
+  {
+    "id": 2,
+    "title": "Author's Afternoon",
+    "date": "April 25, 2025",
+    "venue": "Library Reading Lounge",
+    "description": "An intimate roundtable with guest authors discussing their creative journeys, writing rituals, and the stories behind their most beloved works.",
+    "status": "upcoming",
+    "category": "Workshop"
+  },
+  {
+    "id": 3,
+    "title": "Debate Royale",
+    "date": "May 3, 2025",
+    "venue": "Seminar Hall, Block C",
+    "description": "Teams of two face off in a high-stakes British Parliamentary debate on contemporary literature's role in shaping social discourse and identity.",
+    "status": "upcoming",
+    "category": "Competition"
+  },
+  {
+    "id": 4,
+    "title": "Flash Fiction Festival",
+    "date": "March 10, 2025",
+    "venue": "English Department Courtyard",
+    "description": "Writers crafted compelling 500-word stories live on stage. The crowd roared for three finalists whose tales left no dry eye in the house.",
+    "status": "past",
+    "category": "Workshop"
+  },
+  {
+    "id": 5,
+    "title": "Lit Trivia Night",
+    "date": "February 22, 2025",
+    "venue": "Student Union Café",
+    "description": "Teams battle through six rounds of literature trivia spanning classics, contemporary fiction, poetry, and Nobel laureates. Twenty-four teams, one crown.",
+    "status": "past",
+    "category": "Activity"
+  },
+  {
+    "id": 6,
+    "title": "Screenplay Workshop",
+    "date": "January 31, 2025",
+    "venue": "Media Lab, Block D",
+    "description": "A two-day intensive workshop on screenplay writing led by a visiting screenwriter. Participants pitched original pilots to a panel of faculty judges.",
+    "status": "past",
+    "category": "Workshop"
+  }
+]

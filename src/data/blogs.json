@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "title": "Why Magical Realism Still Holds a Mirror to Our World",
+    "excerpt": "From García Márquez to Salman Rushdie, magical realism has always been more than a literary device — it is an act of resistance, a way of seeing the world beneath the world. In an age of relentless rationalism, its relevance has never felt more urgent.",
+    "author": "Ayesha Siddiqui",
+    "date": "March 28, 2025",
+    "readTime": "6 min read",
+    "category": "Literary Analysis",
+    "featured": true
+  },
+  {
+    "id": 2,
+    "title": "The Lost Art of Letter Writing",
+    "excerpt": "Before the tyranny of instant messaging, letters breathed. They aged. They smelled of the sender's home. We explore what we lost when we traded pen for pixel.",
+    "author": "Maryam Farooq",
+    "date": "March 15, 2025",
+    "readTime": "4 min read",
+    "category": "Essay",
+    "featured": false
+  },
+  {
+    "id": 3,
+    "title": "Spoken Word Is Literature Too",
+    "excerpt": "The page and the stage have always been at odds, but they needn't be. We argue that spoken word poetry deserves a seat at the literary canon's table.",
+    "author": "Zain ul Abideen",
+    "date": "March 8, 2025",
+    "readTime": "5 min read",
+    "category": "Opinion",
+    "featured": false
+  },
+  {
+    "id": 4,
+    "title": "Reading Urdu Literature Through an English Lens",
+    "excerpt": "What happens when you apply Western critical theory to the ghazals of Ghalib or the prose of Manto? The results are illuminating — and sometimes unsettling.",
+    "author": "Laila Zafar",
+    "date": "February 20, 2025",
+    "readTime": "7 min read",
+    "category": "Literary Analysis",
+    "featured": false
+  },
+  {
+    "id": 5,
+    "title": "Fan Fiction and the Future of Storytelling",
+    "excerpt": "Once dismissed as frivolous imitation, fan fiction has become a training ground for some of today's most creative storytellers. This is its literary defence.",
+    "author": "Sana Tariq",
+    "date": "February 10, 2025",
+    "readTime": "5 min read",
+    "category": "Creative",
+    "featured": false
+  },
+  {
+    "id": 6,
+    "title": "On Grief, Silence, and the Poems We Never Finish",
+    "excerpt": "Some poems live only in drafts. They are not failed works — they are the rawest, most honest things a writer will ever produce. A meditation on incompletion.",
+    "author": "Hira Anwar",
+    "date": "January 28, 2025",
+    "readTime": "3 min read",
+    "category": "Creative",
+    "featured": false
+  },
+  {
+    "id": 7,
+    "title": "The Comma and the Breath: Punctuation as Emotion",
+    "excerpt": "Emily Dickinson's dashes, Cormac McCarthy's refusal of apostrophes — punctuation has always been a vehicle for feeling. A close reading of marks that matter.",
+    "author": "Hassan Raza",
+    "date": "January 14, 2025",
+    "readTime": "4 min read",
+    "category": "Literary Analysis",
+    "featured": false
+  }
+]

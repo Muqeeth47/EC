@@ -1,0 +1,14 @@
+[
+  { "id": 1,  "category": "Events",       "aspect": "16/9",  "label": "Spoken Word Slam 2024" },
+  { "id": 2,  "category": "Activities",   "aspect": "3/4",   "label": "Workshop Vibes" },
+  { "id": 3,  "category": "Competitions", "aspect": "1/1",   "label": "Debate Royale Finals" },
+  { "id": 4,  "category": "Events",       "aspect": "4/3",   "label": "Author's Afternoon" },
+  { "id": 5,  "category": "Activities",   "aspect": "1/1",   "label": "Reading Circle" },
+  { "id": 6,  "category": "Events",       "aspect": "3/4",   "label": "Lit Trivia Night" },
+  { "id": 7,  "category": "Competitions", "aspect": "16/9",  "label": "Flash Fiction Festival" },
+  { "id": 8,  "category": "Activities",   "aspect": "4/3",   "label": "Creative Writing Sprint" },
+  { "id": 9,  "category": "Events",       "aspect": "1/1",   "label": "Club Induction 2024" },
+  { "id": 10, "category": "Competitions", "aspect": "3/4",   "label": "Poetry Slam Winners" },
+  { "id": 11, "category": "Activities",   "aspect": "16/9",  "label": "Campus Storytelling Walk" },
+  { "id": 12, "category": "Events",       "aspect": "1/1",   "label": "Screenplay Workshop" }
+]
