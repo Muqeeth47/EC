@@ -1,5 +1,5 @@
 import { NavLink } from 'react-router-dom'
-import { BookOpen, Instagram, Twitter, Facebook, Mail, Sparkles } from 'lucide-react'
+import { BookOpen, Camera, MessageCircle, Globe, Mail, Sparkles } from 'lucide-react'
 
 const links = [
   { to: '/',        label: 'Home' },
@@ -12,10 +12,10 @@ const links = [
 ]
 
 const socials = [
-  { icon: Instagram, label: 'Instagram' },
-  { icon: Twitter,   label: 'Twitter' },
-  { icon: Facebook,  label: 'Facebook' },
-  { icon: Mail,      label: 'Email' },
+  { icon: Camera,        label: 'Instagram' },
+  { icon: MessageCircle, label: 'Twitter' },
+  { icon: Globe,         label: 'Facebook' },
+  { icon: Mail,          label: 'Email' },
 ]
 
 const accentColors = ['#FF3AF2', '#00F5D4', '#FFE600', '#FF6B35', '#7B2FFF']

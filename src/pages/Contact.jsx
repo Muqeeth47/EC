@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { Mail, Instagram, MapPin, Send, Phone } from 'lucide-react'
+import { Mail, Camera, MapPin, Send, Phone } from 'lucide-react'
 
 const accentColors = ['#FF3AF2', '#00F5D4', '#FFE600', '#FF6B35', '#7B2FFF']
 
@@ -58,7 +58,7 @@ export default function Contact() {
 
             {[
               { Icon: Mail,      label: 'Email',     value: 'wordcraft@crescentcollege.edu', color: '#FF3AF2' },
-              { Icon: Instagram, label: 'Instagram', value: '@wordcraft_ec',                 color: '#00F5D4' },
+              { Icon: Camera,    label: 'Instagram', value: '@wordcraft_ec',                 color: '#00F5D4' },
               { Icon: Phone,     label: 'Phone',     value: '+92 42 111 000 000',            color: '#FFE600' },
               { Icon: MapPin,    label: 'Address',   value: 'Room 204, Arts Block\nCrescent College, Lahore',  color: '#FF6B35' },
             ].map(({ Icon, label, value, color }, i) => (
