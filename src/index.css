@@ -532,6 +532,138 @@ textarea.form-input {
   *, *::before, *::after {
     animation-duration: 0.01ms !important;
     animation-iteration-count: 1 !important;
-    transition-duration: 0.15s !important;
+    transition-duration: 0.15ms !important;
   }
+}
+
+/* ─── MOBILE OPTIMIZATION ─────────────────────── */
+
+/* Tablet: ≤ 1024px */
+@media (max-width: 1024px) {
+  body { font-size: 16px; }
+
+  .grid-2col { grid-template-columns: 1fr !important; }
+
+  /* About page history + mission grids */
+  .about-2col,
+  .contact-grid,
+  .hero-about-grid {
+    grid-template-columns: 1fr !important;
+    gap: 2.5rem !important;
+  }
+
+  /* Cards: reduce heavy multi-shadows */
+  .card {
+    box-shadow: 6px 6px 0 #FFE600, 10px 10px 0 #FF3AF2;
+  }
+
+  .shadow-multi    { box-shadow: 6px 6px 0 #FFE600, 10px 10px 0 #FF3AF2; }
+  .shadow-multi-lg { box-shadow: 8px 8px 0 #00F5D4, 14px 14px 0 #FF3AF2; }
+
+  /* Gallery columns */
+  .gallery-columns { columns: 2 !important; }
+}
+
+/* Mobile: ≤ 768px */
+@media (max-width: 768px) {
+  body { font-size: 15px; }
+
+  /* Sections: reduce vertical padding */
+  section { padding-top: 4rem !important; padding-bottom: 4rem !important; }
+
+  /* Hero */
+  .hero-section { min-height: 100svh; padding-top: 72px; }
+
+  /* Nav */
+  .nav-links   { display: none; }
+  .nav-hamburger { display: flex; }
+
+  /* Buttons: full width stack */
+  .btn-group-mobile {
+    flex-direction: column !important;
+    align-items: stretch !important;
+  }
+  .btn-group-mobile a,
+  .btn-group-mobile button {
+    width: 100%;
+    justify-content: center;
+  }
+
+  /* Primary / Secondary buttons: more comfortable tap target */
+  .btn-primary,
+  .btn-secondary,
+  .btn-outline {
+    padding: 0.9rem 1.75rem;
+    font-size: 0.9rem !important;
+  }
+
+  /* Cards: no translateY stagger that causes overflow */
+  .card { transform: none !important; box-shadow: 5px 5px 0 #FFE600, 9px 9px 0 #FF3AF2; }
+
+  /* Reset translateY stagger on event/blog cards so they don't clip on mobile */
+  article[style*="translateY"],
+  [class*="event-card"],
+  div[style*="translateY(16px)"],
+  div[style*="translateY(12px)"] {
+    transform: none !important;
+  }
+
+  /* Gallery: 2 then 1 columns */
+  .gallery-columns { columns: 2 !important; }
+
+  /* Contact form inner 2-col → 1-col */
+  .form-2col { grid-template-columns: 1fr !important; }
+
+  /* Featured blog inner padding */
+  .featured-inner { padding: 1.75rem !important; }
+
+  /* Text shadows: softer on small screens */
+  .text-shadow-lg { text-shadow: 1px 1px 0 #7B2FFF, 2px 2px 0 #FF3AF2; }
+  .text-shadow-md { text-shadow: 1px 1px 0 #7B2FFF, 2px 2px 0 #FF3AF2; }
+  .text-shadow-sm { text-shadow: 1px 1px 0 #7B2FFF; }
+
+  /* Footer bottom bar */
+  .footer-bottom { flex-direction: column !important; text-align: center; gap: 0.5rem !important; }
+
+  /* Members table: smaller padding */
+  .members-table th,
+  .members-table td { padding: 0.6rem 0.75rem !important; font-size: 0.85rem; }
+}
+
+/* Small mobile: ≤ 480px */
+@media (max-width: 480px) {
+  body { font-size: 14px; }
+
+  /* Hero floating shapes: hide most to reduce clutter */
+  .floating-shape-hide { display: none !important; }
+
+  /* Nav logo smaller */
+  .nav-logo { font-size: 1.4rem !important; }
+
+  /* Gallery: single column */
+  .gallery-columns { columns: 1 !important; }
+
+  /* Section padding trim */
+  section { padding-left: 1rem !important; padding-right: 1rem !important; }
+
+  /* Cards: flat shadow to avoid overflow */
+  .card { box-shadow: 4px 4px 0 #FFE600; }
+
+  /* Buttons: smaller text */
+  .btn-primary,
+  .btn-secondary,
+  .btn-outline { font-size: 0.82rem !important; padding: 0.8rem 1.4rem; }
+
+  /* Contact form padding */
+  .contact-form-box { padding: 1.5rem !important; }
+
+  /* Big shadow box reductions on card variants */
+  [style*="box-shadow: 12px 12px"] { box-shadow: 5px 5px 0 #FFE600, 9px 9px 0 #FF3AF2 !important; }
+  [style*="box-shadow: 8px 8px 0"] { box-shadow: 4px 4px 0 #FFE600 !important; }
+}
+
+/* Extra small: ≤ 360px */
+@media (max-width: 360px) {
+  .nav-logo { font-size: 1.2rem !important; }
+  .filter-btn { font-size: 0.75rem; padding: 0.5rem 1rem; }
 }
