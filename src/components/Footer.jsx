@@ -127,12 +127,15 @@ export default function Footer() {
         </div>
 
         {/* Bottom bar */}
-        <div style={{
-          borderTop: '3px dashed rgba(255,58,242,0.3)',
-          paddingTop: '1.5rem',
-          display: 'flex', flexWrap: 'wrap', gap: '1rem',
-          justifyContent: 'space-between', alignItems: 'center'
-        }}>
+        <div
+          className="footer-bottom"
+          style={{
+            borderTop: '3px dashed rgba(255,58,242,0.3)',
+            paddingTop: '1.5rem',
+            display: 'flex', flexWrap: 'wrap', gap: '1rem',
+            justifyContent: 'space-between', alignItems: 'center'
+          }}
+        >
           <p style={{ color: 'rgba(255,255,255,0.4)', fontSize: '0.85rem' }}>
             © 2025 WordCraft English Club · Crescent College · All rights reserved
           </p>
