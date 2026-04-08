@@ -56,11 +56,14 @@ export default function Gallery() {
       <section style={{ padding: '4rem 2rem 7rem' }}>
         <div style={{ maxWidth: 1280, margin: '0 auto' }}>
           {/* Responsive columns grid with mixed heights */}
-          <div style={{
-            columns: 3,
-            columnGap: '1.5rem',
-            WebkitColumns: 3,
-          }}>
+          <div
+            className="gallery-columns"
+            style={{
+              columns: 3,
+              columnGap: '1.5rem',
+              WebkitColumns: 3,
+            }}
+          >
             {filtered.map((item, i) => (
               <div key={item.id} style={{ breakInside: 'avoid', marginBottom: '1.5rem' }}>
                 <GalleryBlock item={item} index={i} />
@@ -75,15 +78,7 @@ export default function Gallery() {
         </div>
       </section>
 
-      {/* Responsive columns */}
-      <style>{`
-        @media (max-width: 768px) {
-          [style*="columns: 3"] { columns: 2 !important; }
-        }
-        @media (max-width: 480px) {
-          [style*="columns: 3"] { columns: 1 !important; }
-        }
-      `}</style>
+
     </div>
   )
 }

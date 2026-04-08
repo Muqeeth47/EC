@@ -49,7 +49,7 @@ export default function About() {
 
       {/* ─── CLUB HISTORY ─────────────────────────── */}
       <section className="section-pattern-1" style={{ padding: '7rem 2rem', position: 'relative', overflow: 'hidden' }}>
-        <div style={{ maxWidth: 1280, margin: '0 auto', display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '4rem', alignItems: 'center' }}>
+        <div className="about-2col" style={{ maxWidth: 1280, margin: '0 auto', display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '4rem', alignItems: 'center' }}>
           <div style={{ position: 'relative', zIndex: 1 }}>
             <div aria-hidden="true" className="animate-wiggle" style={{ fontSize: '3rem', marginBottom: '1rem' }}>📜</div>
             <h2 className="text-shadow-md" style={{
@@ -85,7 +85,7 @@ export default function About() {
             }}>Mission &amp; <span style={{ color: '#00F5D4' }}>Vision</span></h2>
           </div>
 
-          <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '3rem' }}>
+          <div className="about-2col" style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '3rem' }}>
             {/* Mission */}
             <div style={{
               background: 'rgba(45,27,78,0.8)', border: '4px solid #FF3AF2',

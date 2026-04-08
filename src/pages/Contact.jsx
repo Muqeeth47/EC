@@ -41,7 +41,7 @@ export default function Contact() {
 
       {/* Main content */}
       <section style={{ padding: '6rem 2rem 4rem' }}>
-        <div style={{ maxWidth: 1280, margin: '0 auto', display: 'grid', gridTemplateColumns: '1fr 1.5fr', gap: '4rem', alignItems: 'start' }}>
+        <div className="contact-grid" style={{ maxWidth: 1280, margin: '0 auto', display: 'grid', gridTemplateColumns: '1fr 1.5fr', gap: '4rem', alignItems: 'start' }}>
 
           {/* Left: contact info */}
           <div style={{ display: 'flex', flexDirection: 'column', gap: '2rem' }}>
@@ -87,11 +87,14 @@ export default function Contact() {
           </div>
 
           {/* Right: form */}
-          <div style={{
-            background: 'rgba(45,27,78,0.75)', border: '4px solid #FF3AF2',
-            borderRadius: 28, padding: '3rem',
-            boxShadow: '12px 12px 0 #FFE600, 24px 24px 0 #7B2FFF'
-          }}>
+          <div
+            className="contact-form-box"
+            style={{
+              background: 'rgba(45,27,78,0.75)', border: '4px solid #FF3AF2',
+              borderRadius: 28, padding: '3rem',
+              boxShadow: '12px 12px 0 #FFE600, 24px 24px 0 #7B2FFF'
+            }}
+          >
             <h2 style={{
               fontFamily: '"Outfit", sans-serif', fontWeight: 900,
               fontSize: '1.8rem', textTransform: 'uppercase', color: '#fff',
@@ -110,7 +113,7 @@ export default function Contact() {
             )}
 
             <form onSubmit={handleSubmit} style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem' }}>
-              <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1.25rem' }}>
+              <div className="form-2col" style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1.25rem' }}>
                 <div className="form-group">
                   <label className="form-label" htmlFor="name">Name</label>
                   <input id="name" name="name" type="text" className="form-input" placeholder="Your name" value={form.name} onChange={handleChange} required />

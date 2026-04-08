@@ -41,7 +41,7 @@ export default function Home() {
 
         {/* Floating shapes */}
         {floatingShapes.map((s, i) => (
-          <div key={i} aria-hidden="true" className={s.anim} style={{
+          <div key={i} aria-hidden="true" className={`${s.anim}${i > 2 ? ' floating-shape-hide' : ''}`} style={{
             position: 'absolute', top: s.top, bottom: s.bottom,
             left: s.left, right: s.right, fontSize: s.size,
             animationDelay: s.delay, zIndex: 2, pointerEvents: 'none'
@@ -78,7 +78,7 @@ export default function Home() {
             Where literature ignites imagination. A community of writers, readers, debaters, and storytellers rewriting what it means to belong.
           </p>
 
-          <div style={{ display: 'flex', gap: '1.25rem', justifyContent: 'center', flexWrap: 'wrap' }}>
+          <div className="btn-group-mobile" style={{ display: 'flex', gap: '1.25rem', justifyContent: 'center', flexWrap: 'wrap' }}>
             <Link to="/events"><button className="btn-primary">Explore Events <ArrowRight size={18} /></button></Link>
             <Link to="/about"><button className="btn-secondary">About the Club</button></Link>
           </div>
@@ -106,7 +106,7 @@ export default function Home() {
 
       {/* ─── ABOUT TEASER ─────────────────────────── */}
       <section className="section-pattern-2" style={{ padding: '6rem 2rem', position: 'relative', overflow: 'hidden' }}>
-        <div style={{ maxWidth: 1280, margin: '0 auto', display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '4rem', alignItems: 'center' }}>
+        <div className="about-2col" style={{ maxWidth: 1280, margin: '0 auto', display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '4rem', alignItems: 'center' }}>
           <div style={{ position: 'relative', zIndex: 1 }}>
             <div aria-hidden="true" className="animate-wiggle" style={{ fontSize: '4rem', marginBottom: '1rem' }}>📖</div>
             <h2 className="text-shadow-md" style={{
@@ -204,7 +204,7 @@ export default function Home() {
             }}>Gallery <span className="grad-text">Preview</span></h2>
           </div>
 
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '1.5rem', alignItems: 'start' }}>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(140px, 1fr))', gap: '1.5rem', alignItems: 'start' }}>
             {galleryItems.map((item, i) => (
               <div key={item.id} className="gallery-item" style={{
                 aspectRatio: '1/1', background: '#000',

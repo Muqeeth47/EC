@@ -58,7 +58,7 @@ export default function Blog() {
                 borderWidth: 0, borderBottom: '4px solid #FF3AF2'
               }} />
 
-              <div style={{ padding: '3rem' }}>
+              <div className="featured-inner" style={{ padding: '3rem' }}>
                 <span className="badge badge-cat" style={{
                   background: 'rgba(255,58,242,0.2)', color: '#FF3AF2',
                   borderColor: '#FF3AF2', marginBottom: '1rem', display: 'inline-block'
